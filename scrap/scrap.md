@@ -1,4 +1,4 @@
-# What I want from the chatbot
+## What I want from the chatbot
 
 stages i want to reach
 
@@ -19,3 +19,22 @@ stages i want to reach
 8. "song1 matches song2" -> T/F
 
 9. "what matches song1" -> [songs]
+
+## lambek calculus
+
+alice       : np
+bob         : np
+
+likes       : np \ ( s / np )
+
+everyone    : s / ( np \ s )
+
+
+everyone likes bob:
+
+s / ( np \ s ) np \ ( s / np ) np
+<=
+s / ( np \ s ) np \ s
+<=
+s
+
